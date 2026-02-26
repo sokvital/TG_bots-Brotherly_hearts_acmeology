@@ -1,0 +1,34 @@
+max_qty: 4
+percent: "EI, JP"
+test: false
+demo: false
+entry: false
+voice: true
+size_query: 75
+size_answer: 25
+ques_xlsx_path: "data/MBTI_questions.xlsx"
+decoding_path: "data/Decoding_psychotypes"
+
+bd_xlsx_path: "data/users.xlsx"
+bd_path: "data/mbti_bot.db"
+
+api_base: null
+model_Akma: "gpt-4.1-mini"
+model_demo: "gpt-4.1-mini"
+model_analis: "gpt-4.1-mini"
+
+#api_base: "https://openrouter.ai/api/v1"
+#model_Akma: "mistralai/devstral-2512:free"
+#model_Akma: "arcee-ai/trinity-large-preview:free"
+#model_demo: "deepseek/deepseek-r1-0528:free"
+#model_analis: "arcee-ai/trinity-large-preview:free"
+
+temperature_Akma: 0.7
+temperature_demo: 0.0
+temperature_analis: 0.0
+
+price_query: 0.4
+price_answer: 1.6
+#price_query: 0.15
+#price_answer: 0.6
+
